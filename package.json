@@ -1,0 +1,31 @@
+{
+  "name": "bitcoinwallet",
+  "version": "1.0.1",
+  "description": "Bitcoin wallet con opcion de retiro en cajeros",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AcidAndroid/cryptowalletnew.git"
+  },
+  "keywords": [
+    "cajero",
+    "bedu",
+    "bootcamp",
+    "bitcoin"
+  ],
+  "author": "kell",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AcidAndroid/cryptowalletnew/issues"
+  },
+  "homepage": "https://github.com/AcidAndroid/cryptowalletnew#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^4.0.1",
+    "materialize": "^1.0.0"
+  }
+}
