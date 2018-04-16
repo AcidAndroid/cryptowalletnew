@@ -2,7 +2,7 @@
 input html
 filtrar solo los que pudieran ser billetes mexicanos 10,20,50,100,200,500(es decir solo lo que cabe entre 10)
 representar con las denominaciones de billetes minimas que se necesita para obtener las cantidades
-cesar.gutz93@gmail.com
+enviar a cesar.gutz93@gmail.com
 */
 
 //Billete disponibles 
@@ -16,7 +16,7 @@ let montosValidados = filtrarValidos([50, 130, 430, 1, 10, 80, 55, 200, 478.6, 4
     //console.log(filtrarValidos([1, 10, 80, 55, 200, 478.6, 4896.4, 10300]))
 
 //realiza la entrega de los billetes segun el monto ingresado
-const entrega = (montosDesaados) => {
+module.exports.entrega = (montosDesaados) => {
     //return montosValidados.map((valor, indice) => {
     return filtrarValidos(montosDesaados).map((valor, indice) => {
         return representacion(valor)
@@ -69,4 +69,6 @@ const representacion = (monto) => {
 // console.log(Representacion(5280))
 
 //console.log(montosValidados)
-console.log(entrega([4720]))
+//console.log(entrega([4720]))
+// module.exports.filtrarValidos = filtrarValidos()
+// module.exports.entrega = entrega()

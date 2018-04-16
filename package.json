@@ -27,5 +27,8 @@
     "gulp-rename": "^1.2.2",
     "gulp-sass": "^4.0.1",
     "materialize": "^1.0.0"
+  },
+  "dependencies": {
+    "http": "0.0.0"
   }
 }
